@@ -1,0 +1,345 @@
+
+.span6{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 85%;
+}
+/* ovde su podesavanja za formu */
+.testiranje{
+
+    margin-top: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 10px
+}
+
+
+
+/* DUGME */
+
+
+
+#button-26 {
+  margin-left: 50px;
+  margin-right:5px;
+  appearance: button;
+  background-color: #49afcd;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-size: 14px;
+  line-height: 1.15;
+  overflow: visible;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 200px;
+  
+  height: 50px;
+  /* width: fit-content; */
+}
+
+#button-26:disabled {
+  opacity: .5;
+}
+
+#button-26:focus {
+  outline: 0;
+}
+
+#button-26:hover {
+  background-color: #49afcd;
+  border-color: #49afcd;
+}
+
+#button-26:active {
+  background-color: #49afcd;
+  border-color: #49afcd;
+}
+
+.polje{
+
+margin-top: 20px;
+border-color:#2a6475 ;
+border-style: solid;
+margin-left: 5px;
+margin-right: 5px;
+width: 100px;
+
+
+}
+
+.labela{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;  
+    font-weight: bold;
+    word-spacing: 85px;
+}
+
+
+
+#lbl{
+
+border-style: solid;
+border-color: black;
+display: inline-block;
+
+
+
+}
+.tabela{
+    
+border-style: solid;
+border-color: black;
+}
+
+/* ODAVDE IDE PODESAVANJE ZA SPLIT */
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 0px;
+
+  }
+
+
+
+  /* Control the left side */
+.left {
+    left: 0;
+    background-color: #88bdbc;
+  }
+
+
+
+  /* Control the right side */
+.right {
+    right: 0;
+    background-color: #88bdbc;
+    margin-top: 0px;
+  }
+
+
+
+
+
+  .table-wrapper{
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.fl-table {
+    margin-top: 0px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.fl-table td {
+    border-right: 0px solid #f8f8f8;
+    font-size: 20px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #49afcd;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: black;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #bbbbbb;
+}
+
+#link{
+
+color: red;
+
+}
+
+#title{
+margin-top: 0px;
+  margin-left: 3px;
+font-weight: bold;
+font-size: 15px;
+
+
+}
+
+
+#horizontal{
+
+border-style: inset;
+width: thin;
+
+
+
+
+}
+#test{
+
+margin-left: 100%;
+
+}
+
+#dugme{
+
+  width: 114px;
+  height: 30px;
+  margin-left: 20px;
+
+}
+
+#loginbody{
+
+
+
+  /* #324960 */
+background-color: #324960;
+
+}
+
+
+#registerlink{
+
+color: white;
+
+}
+
+
+#dashboardbody{
+
+background-color: #324960;
+
+
+
+}
+
+#update-link{
+
+color: rgb(1, 1, 145);
+
+
+}
+
+
+/* update form */
+
+#update{
+
+margin-left: 70px;
+
+display: inline-block;
+
+}
+
+#submit{
+
+margin-left: 50px;
+
+}
+
+.update-polje{
+
+margin-left: 5px;
+margin-right: 5px;
+width: 250px;
+height: 30px;
+font-size: 20px;
+border-radius: 5px;
+margin-bottom: 10px;
+border-color: #33778b;
+
+
+
+}
+.update-label{
+
+margin-left: 5px;
+font-size: 20px;
+margin-top:20px ;
+
+
+}
+
+#submit-dugme{
+
+border-style: solid;
+border-width: 2px;
+border-color: black;
+color: white;
+
+
+border-radius: 5px;
+width: 150px;
+height: 50px;
+font-size: 20px;
+background-color: #49afcd;
+margin-top: 15px;
+margin-left: 62px;
+
+
+}
+
+#okvir{
+
+margin-top: 100px;
+background-color: white;
+width: 400px;
+margin-left: 550px;
+border-radius: 10px;
+border-style: ridge;
+border-color: rgb(255, 236, 236);
+height: 350px;
+
+
+
+
+}
+
+
+#update-body{
+
+
+background-color: #49afcd;
+
+
+}
+
+#update-naslov{
+
+margin-left: 47px;
+color: #15657e;
+
+}

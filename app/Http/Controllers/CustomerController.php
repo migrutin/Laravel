@@ -62,7 +62,7 @@ class CustomerController extends Controller
      if(!$customerInfo){
         return back()->with('fail','Account does not exist');
      }else{
-        #ako je nasao korisnika sa datim mejlom, treba da proveri password da bi ga pustio dalje!
+        
         if($request->password==$customerInfo->password){
             $request->session()->put('LoggedCustomer',$customerInfo->id);
             return redirect('dashboard');
